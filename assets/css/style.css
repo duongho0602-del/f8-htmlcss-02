@@ -916,3 +916,7 @@ a {
     text-align: center;
     color: rgba(128, 125, 116, 1);
 }
+
+.footer .row1 a:hover {
+    text-decoration: underline;
+}
