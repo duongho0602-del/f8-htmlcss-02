@@ -806,3 +806,113 @@ a {
     background-color: rgba(226, 223, 218, 1);
     transform: translateY(-12px);
 }
+
+.footer {
+    background-color: rgba(46, 33, 0, 1);
+}
+
+.footer .row1 {
+    padding-top: 96px;
+    display: flex;
+}
+
+.footer .row1 .colum1 {
+    width: 267px;
+}
+
+.footer .row1 .colum1 .text {
+    width: 267px;
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2.6rem;
+    color: rgba(191, 188, 178, 1);
+}
+
+.footer .row1 .colum1 .mangxh {
+    display: flex;
+    width: 111px;
+    padding-top: 18px;
+    justify-content: space-between;
+}
+
+.footer .row1 .colum2 {
+    margin-left: 130px;
+}
+
+.footer .row1:nth-of-type(2) .colum2 {
+    white-space: nowrap;
+}
+
+.footer .row1 .colum2:last-child a{
+    width: 231px;
+    white-space: wrap;
+}
+
+.footer .row1:last-child .colum2 {
+    margin-right: 0px;
+}
+
+.footer .row1 .colum2:last-child span {
+    size: 14px;
+}
+
+.footer .row1 .colum2 p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer .row1 .colum2 .desc::after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 1px;
+    background-color: rgb(38, 255, 4);
+    transform: translateY(14px);
+}
+
+.footer .row1 .colum2 a {
+    white-space: nowrap;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: rgba(191, 188, 178, 1);
+}
+
+.footer .row1 .colum2 ul {
+    margin-top: 28px;
+}
+
+.footer .row1 .colum2 ul li {
+    margin-top: 12px;
+}
+
+.footer .row1 .colum2 ul li:first-child  {
+    display: inline-block;
+    margin-top: none;
+}
+
+.footer .row .cop::before {
+    content: "";
+    display: block;
+    width: 1170px;
+    height: 1px;
+    background-color: rgb(38, 255, 4);
+    transform: translateY(-28px);
+}
+
+.footer .row .cop {
+    display: inline-block;
+    margin: 66px auto 28px auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(128, 125, 116, 1);
+}
